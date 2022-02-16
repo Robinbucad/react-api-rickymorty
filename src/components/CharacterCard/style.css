@@ -1,0 +1,84 @@
+
+
+.card {
+    display: flex;
+    background-color:#0a344a;
+    width: 542px;
+    height: 200px;
+    margin-bottom: -30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:	#00202e;
+    padding: 2rem;
+}
+
+.card-container-header {
+    background-color:#365972 ;
+}
+
+.info-container{
+    display: flex;
+}
+
+.info-char{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name-char{
+    padding-top: 10px;
+}
+.footer-char {
+    padding-bottom: 10px;
+}
+
+
+.img {
+    width: 12.5rem;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.title {
+    color: darkgray;
+    font-size: 13px;
+}
+
+.name-info {
+    display: flex;
+    align-items: center;
+}
+
+.pointAlive {
+    width: 8px;
+    height: 8px;
+    background-color: green;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.pointDead{
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+#unknown{
+    background-color: gray;
+}
+
